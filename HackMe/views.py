@@ -6,4 +6,4 @@ import os
 
 def index(request):
     os.system('start cmd /k "cd/ & tree" ')
-    return render(request,'templates/index.html')
+    return render(request,'./index.html')
